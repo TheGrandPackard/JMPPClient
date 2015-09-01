@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="borderPane" fx:controller="com.jmpp.controllers.DefaultController" xmlns:fx="http://javafx.com/fxml">
+	 
+	 <top>
+		<MenuBar fx:id="menuBar">
+	      <menus>
+	         <Menu text="File">
+	            <items>
+	               <MenuItem text="Settings" onAction="#handleSettingsMenu"/>
+	               <SeparatorMenuItem  />
+	               <MenuItem text="Exit" onAction="#handleExitMenu"/>
+	            </items>
+	         </Menu>
+	         <Menu text="Help">
+	            <items>
+	               <MenuItem text="About" onAction="#handleAboutMenu"/>
+	            </items>
+	         </Menu>
+	      </menus>
+	   </MenuBar>
+   </top>
+	
+</BorderPane>
